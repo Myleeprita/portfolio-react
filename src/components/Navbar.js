@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+import '../App.css';
 
 // BARRE DE NAVIGATION AVEC SON MENU BURGER RESPONSIVE MOBILE
 export default function Navbar() {
@@ -11,11 +12,11 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
-                        <li className="nav-item"><Link className="nav-link" to="/"> Home </Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/services"> Services </Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/portfolio"> Portfolio </Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/contact"> Contact </Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/mentions"> Mentions légales </Link></li>
+                        <li className="nav-item"><NavLink to="/" className={({ isActive }) => 'nav-link text-uppercase' + (isActive ? ' active-link' : '')}> Home </NavLink></li>
+                        <li className="nav-item"><NavLink to="/services" className={({ isActive }) => 'nav-link text-uppercase' + (isActive ? ' active-link' : '')}> Services </NavLink></li>
+                        <li className="nav-item"><NavLink to="/portfolio" className={({ isActive }) => 'nav-link text-uppercase' + (isActive ? ' active-link' : '')}> Portfolio </NavLink></li>
+                        <li className="nav-item"><NavLink to="/contact" className={({ isActive }) => 'nav-link text-uppercase' + (isActive ? ' active-link' : '')}> Contact </NavLink></li>
+                        <li className="nav-item"><NavLink to="/mentions" className={({ isActive }) => 'nav-link text-uppercase' + (isActive ? ' active-link' : '')}> Mentions légales </NavLink></li>
                     </ul>
                 </div>
             </div>

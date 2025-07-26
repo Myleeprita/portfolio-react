@@ -36,11 +36,11 @@ export default function Footer() {
                     <div className="col-12 col-md-4">
                         <h3> Liens utiles </h3>
                         <ul className="list-unstyled">
-                            <li><Link to="/" className="text-color text-decoration-none"> Accueil </Link></li>
-                            <li><Link to="/services" className="text-color text-decoration-none"> Services </Link></li>
-                            <li><Link to="/portfolio" className="text-color text-decoration-none"> Portfolio </Link></li>
-                            <li><Link to="/contact" className="text-color text-decoration-none"> Me contacter </Link></li>
-                            <li><Link to="/mentions" className="text-color text-decoration-none"> Mentions légales </Link></li>
+                            <li><Link to="/" className="text-light text-decoration-none"> Accueil </Link></li>
+                            <li><Link to="/services" className="text-light text-decoration-none"> Services </Link></li>
+                            <li><Link to="/portfolio" className="text-light text-decoration-none"> Portfolio </Link></li>
+                            <li><Link to="/contact" className="text-light text-decoration-none"> Me contacter </Link></li>
+                            <li><Link to="/mentions" className="text-light text-decoration-none"> Mentions légales </Link></li>
                         </ul>
                     </div>
 
@@ -51,22 +51,22 @@ export default function Footer() {
                         <h3> Mes dernières réalisations </h3>
                         <ul className="list-unstyled">
                             <li>
-                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-color text-decoration-none"> Fresh Food </a>
+                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-light text-decoration-none"> Fresh Food </a>
                             </li>
                             <li>
-                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-color text-decoration-none"> Restaurant Akira </a>
+                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-light text-decoration-none"> Restaurant Akira </a>
                             </li>
                             <li>
-                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-color text-decoration-none"> Espace bien-être </a>
+                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-light text-decoration-none"> Espace bien-être </a>
                             </li>
                             <li>
-                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-color text-decoration-none"> SEO </a>
+                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-light text-decoration-none"> SEO </a>
                             </li>
                             <li>
-                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-color text-decoration-none"> Création d'une API </a>
+                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-light text-decoration-none"> Création d'une API </a>
                             </li>
                             <li>
-                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-color text-decoration-none"> Maquette d'un site </a>
+                                <a href='/portfolio' target="_blank" rel="noreferrer" className="text-light text-decoration-none"> Maquette d'un site </a>
                             </li>
                         </ul>
                     </div>

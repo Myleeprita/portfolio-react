@@ -7,8 +7,8 @@ export default function Home() {
             <img src={monImage} alt="Mon Image" className="img-fluid w-100" />
 
             <div className="overlay-text">
-                <h1 className="text-color"> Bonjour, je suis John Doe </h1>
-                <h2 className="text-color"> Développeur web full stack </h2>
+                <h1 className="text-light"> Bonjour, je suis John Doe </h1>
+                <h2 className="text-light"> Développeur web full stack </h2>
             </div>
         </div>
     )
