@@ -24,6 +24,7 @@ function App() {
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/mentions' element={<Mentions />} />
             </Routes>
+            <Footer/>
         </Router>
     );
 }
