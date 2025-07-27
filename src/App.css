@@ -1,13 +1,12 @@
 /* CSS NAVBAR */
 .nav-link {
-  color: #ccc;
   text-transform: uppercase;
   transition: all 0.3s ease;
   text-decoration: none;
   position: relative;
 }
 .active-link {
-    color: #ffffff !important;
+    color: #fff !important;
     font-weight: bold !important;
     position: relative;
 }
@@ -18,7 +17,7 @@
   bottom: 10px;
   width: 100%;
   height: 2px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 /* CSS HOME  */
@@ -44,5 +43,5 @@
     transition: color 0.3s ease;
 }
 .social-icon:hover {
-    color: #ffffff;
+    color: #fff;
 }
