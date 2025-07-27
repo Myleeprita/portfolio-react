@@ -1,3 +1,8 @@
+/* POLICE */
+body {
+    font-family: "Nunito Sans", sans-serif !important;
+}
+
 /* CSS NAVBAR */
 .nav-link {
   text-transform: uppercase;
@@ -29,12 +34,61 @@
     transform: translate(-50%, -50%);
     z-index: 2;
 }
-.position-relative img {
+.img-hero {
     opacity: 70%;
 }
+.overlay-text h1 {
+    font-weight: bold;
+}
+.overlay-text h2 {
+    font-weight: bold;
+}
+.overlay-text button {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+              /* responsive */
+@media (max-width: 768px) {
+    .overlay-text h1 {
+        font-size: 2rem;
+    }
+    .overlay-text h2 {
+        font-size: 1.2rem;
+    }
+    .overlay-text button {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+}
+@media (max-width: 480px) {
+    .overlay-text h1 {
+        font-size: 1.5rem;
+    }
 
+    .overlay-text h2 {
+        font-size: 1rem;
+    }
+    .overlay-text button {
+        font-size: 0.9rem;
+        padding: 0.4rem 1rem;
+    }
+}
+               /* modal */
 
+@media (max-width: 768px) {
+  .modal-body img {
+    max-width: 150px;
+    margin-bottom: 1rem;
+  }
 
+  .modal-content {
+    padding: 1rem;
+  }
+
+  .modal-body p {
+    font-size: 0.9rem;
+  }
+}
 /* CSS FOOTER */
 
 .social-icon {
