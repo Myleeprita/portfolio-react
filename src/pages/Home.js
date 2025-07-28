@@ -73,68 +73,70 @@ export default function Home() {
 
                                 {/* SECTION PRESENTATION */}
             <section className="mt-5">
-                <div className="row justify-content-center">
-                    
-                    {/* 1ER BLOC */}
-                    
-                    <div className="col-12 col-lg-3">
-                        <h3 className="border-bottom border-3 py-2 border-primary"> A propos </h3>
-                        <div>
-                            <img src={MonImage} alt="img" className="img-fluid w-100 mb-3 mt-5" />
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec tortor est. 
-                            Proin in malesuada nisi, a hendrerit ipsum. Suspendisse potenti. Phasellus vel nunc odio. 
-                            Suspendisse tortor elit, sollicitudin vel dapibus tempor, sagittis at mauris. Vivamus nec dui at ipsum.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec tortor est. 
-                            Proin in malesuada nisi, a hendrerit ipsum. Suspendisse potenti. Phasellus vel nunc odio. 
-                            Suspendisse tortor elit, sollicitudin vel dapibus tempor, sagittis at mauris. Vivamus nec dui at ipsum.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec tortor est. 
-                            Proin in malesuada nisi, a hendrerit ipsum. Suspendisse potenti. Phasellus vel nunc odio. 
-                            Suspendisse tortor elit, sollicitudin vel dapibus tempor, sagittis at mauris. Vivamus nec dui at ipsum.
-                        </p>
-                    </div>
-
-                    {/* 2EME BLOC */}
-
-                    <div className="col-12 col-lg-3">
-                        <h3 className="border-bottom border-3 py-2 border-primary"> Mes compétences </h3>
-                        <div className="mb-3 mt-5">
-                            <p> HTML5 90% </p>
-                            <div className="progress">
-                                <div className="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style={{ width: "90%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="container px-5 shadow p-3 mb-5 bg-body rounded">
+                    <div className="row justify-content-center">
+                        
+                        {/* 1ER BLOC */}
+                        
+                        <div className="col-12 col-lg-6">
+                            <h3 className="border-bottom border-3 py-2 border-primary"> A propos </h3>
+                            <div>
+                                <img src={MonImage} alt="img" className="img-fluid w-100 mb-3 mt-5" />
                             </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec tortor est. 
+                                Proin in malesuada nisi, a hendrerit ipsum. Suspendisse potenti. Phasellus vel nunc odio. 
+                                Suspendisse tortor elit, sollicitudin vel dapibus tempor, sagittis at mauris. Vivamus nec dui at ipsum.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec tortor est. 
+                                Proin in malesuada nisi, a hendrerit ipsum. Suspendisse potenti. Phasellus vel nunc odio. 
+                                Suspendisse tortor elit, sollicitudin vel dapibus tempor, sagittis at mauris. Vivamus nec dui at ipsum.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec tortor est. 
+                                Proin in malesuada nisi, a hendrerit ipsum. Suspendisse potenti. Phasellus vel nunc odio. 
+                                Suspendisse tortor elit, sollicitudin vel dapibus tempor, sagittis at mauris. Vivamus nec dui at ipsum.
+                            </p>
                         </div>
 
-                        <div className="mb-3">
-                            <p> CSS3 80% </p>
-                            <div className="progress">
-                                <div className="progress-bar bg-info" role="progressbar" aria-label="Info example" style={{ width: "80%" }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        {/* 2EME BLOC */}
+
+                        <div className="col-12 col-lg-6">
+                            <h3 className="border-bottom border-3 py-2 border-primary"> Mes compétences </h3>
+                            <div className="mb-3 mt-5">
+                                <p> HTML5 90% </p>
+                                <div className="progress">
+                                    <div className="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style={{ width: "90%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="mb-3">
-                            <p> JAVASCRIPT 70% </p>
-                            <div className="progress">
-                                <div className="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style={{ width: "70%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="mb-3">
+                                <p> CSS3 80% </p>
+                                <div className="progress">
+                                    <div className="progress-bar bg-info" role="progressbar" aria-label="Info example" style={{ width: "80%" }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="mb-3">
-                            <p> PHP 60% </p>
-                            <div className="progress">
-                                <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "60%" }} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="mb-3">
+                                <p> JAVASCRIPT 70% </p>
+                                <div className="progress">
+                                    <div className="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style={{ width: "70%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="mb-3">
-                            <p> REACT 50% </p>
-                            <div className="progress">
-                                <div className="progress-bar" role="progressbar" aria-label="Default example" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="mb-3">
+                                <p> PHP 60% </p>
+                                <div className="progress">
+                                    <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "60%" }} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div className="mb-3">
+                                <p> REACT 50% </p>
+                                <div className="progress">
+                                    <div className="progress-bar" role="progressbar" aria-label="Default example" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
