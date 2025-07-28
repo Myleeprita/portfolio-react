@@ -1,5 +1,5 @@
 import monImage from '../assets/hero-bg.jpg';
-import MonImage from '../assets/john-doe-about.jpg'
+import MonImage from '../assets/john-doe-about.jpg';
 import '../App.css';
 import { useEffect, useState } from 'react';
 
@@ -79,7 +79,7 @@ export default function Home() {
                         {/* 1ER BLOC */}
                         
                         <div className="col-12 col-lg-6">
-                            <h3 className="border-bottom border-3 py-2 border-primary"> A propos </h3>
+                            <h3 className="border-bottom border-5 py-2 border-primary"> A propos </h3>
                             <div>
                                 <img src={MonImage} alt="img" className="img-fluid w-100 mb-3 mt-5" />
                             </div>
@@ -103,7 +103,7 @@ export default function Home() {
                         {/* 2EME BLOC */}
 
                         <div className="col-12 col-lg-6">
-                            <h3 className="border-bottom border-3 py-2 border-primary"> Mes compétences </h3>
+                            <h3 className="border-bottom border-5 py-2 border-primary"> Mes compétences </h3>
                             <div className="mb-3 mt-5">
                                 <p> HTML5 90% </p>
                                 <div className="progress">
