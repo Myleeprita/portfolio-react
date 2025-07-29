@@ -18,27 +18,27 @@ export default function Contact() {
                                 <form>
                                     <div className="spacing">
                                         <label htmlFor="nom" className="form-label"></label>
-                                        <input type="text" className="form-control" id="nom" placeholder="Votre Nom" />
+                                        <input type="text" className="form-control" id="nom" placeholder="Votre Nom" required/>
                                     </div>
 
                                     <div className="spacing">
                                         <label htmlFor="email" className="form-label"></label>
-                                        <input type="email" className="form-control" id="email" placeholder="Votre adresse email" />
+                                        <input type="email" className="form-control" id="email" placeholder="Votre adresse email" required/>
                                     </div>
 
                                     <div className="spacing">
                                         <label htmlFor="tel" className="form-label"></label>
-                                        <input type="tel" className="form-control" id="tel" placeholder="Votre numéro de téléphone" />
+                                        <input type="tel" className="form-control" id="tel" placeholder="Votre numéro de téléphone" required/>
                                     </div>
 
                                     <div className="spacing">
                                         <label htmlFor="sujet" className="form-label"></label>
-                                        <input type="text" className="form-control" id="sujet" placeholder="Sujet" />
+                                        <input type="text" className="form-control" id="sujet" placeholder="Sujet" required/>
                                     </div>
 
                                     <div className="spacing">
                                         <label htmlFor="message" className="form-label"></label>
-                                        <textarea className="form-control" id="message" rows="18" placeholder="Votre message" ></textarea>
+                                        <textarea className="form-control" id="message" rows="18" placeholder="Votre message" required></textarea>
                                     </div>
                                     <div className="text-center mt-3">
                                         <button type="submit" className="btn btn-primary"> Envoyer </button>
