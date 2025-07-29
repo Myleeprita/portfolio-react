@@ -114,6 +114,17 @@ body {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
+
+/* CSS PORTFOLIO */
+
+.btn.btn-primary {
+    transition: background-color 0.3s ease;
+}
+.btn.btn-primary:hover {
+    background-color: #4c8efc;
+}
+
+
 /* CSS FOOTER */
 
 .social-icon {
