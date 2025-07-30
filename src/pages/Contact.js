@@ -7,10 +7,12 @@ export default function Contact() {
                 <div className="text-center mb-5">
                     <h1 className="fw-bold"> Contact </h1>
                     <p> Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact. </p>
-                    <div className="line-contact"></div>
+                    <div className="mt-3 line-contact"></div>
                 </div>
                 <div  className="container px-4 shadow p-3 mb-5 bg-body rounded">
                     <div className="row justify-content-center mb-5">
+
+                        {/* FORMULAIRE DE CONTACT */}
 
                         <div className="col-12 col-lg-6">
                             <h3 className="fw-bold border-bottom border-3 py-2 border-primary"> Formulaire de contact </h3>
@@ -46,6 +48,8 @@ export default function Contact() {
                                 </form>
                             </div>
                         </div>
+
+                        {/* COORDONNEES */}
 
                         <div className="col-12 col-lg-6">
                             <h3 className="fw-bold border-bottom border-3 py-2 border-primary"> Mes coordonnées </h3>

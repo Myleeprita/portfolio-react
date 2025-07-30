@@ -4,7 +4,7 @@ import '../App.css';
 export default function Footer() {
     return (
         <footer className="bg-dark text-light py-5 mt-5">
-            <div className="container px-5">
+            <div className="container px-5 mt-5">
                 <div className="row">
 
                 {/* première colonne / personal info */}

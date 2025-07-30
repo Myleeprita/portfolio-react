@@ -13,7 +13,7 @@ import './App.css';
 
 // Configuration du Router
 
-function App() {
+    function App() {
     return (
         <Router>
             <Navbar />
