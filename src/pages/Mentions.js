@@ -1,6 +1,12 @@
+import { Helmet } from 'react-helmet';
+
 export default function Mentions() {
     return (
         <>
+            <Helmet>
+                <meta name="robots" content="noindex"/>
+            </Helmet>
+
             <section className="mt-5">
                 <div className="text-center mb-5">
                     <h1 className="fw-bold"> Mentions légales </h1>
