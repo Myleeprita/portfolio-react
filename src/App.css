@@ -2,6 +2,11 @@
 body {
     font-family: "Nunito Sans", sans-serif !important;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 /* CSS NAVBAR */
 .nav-link {
